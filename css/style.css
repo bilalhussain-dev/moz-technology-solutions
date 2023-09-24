@@ -58,10 +58,15 @@ body {
 
 
 .btn-contact {
-    background-color: #000;
+    background-color: #fff;
     padding: 5px 20px !important;
     margin-left: 10px;
     border-radius: 100px;
+    color: #333;
+}
+
+.active {
+    color: #333 !important;
 }
 .menu li {
     padding: 0 8px;
