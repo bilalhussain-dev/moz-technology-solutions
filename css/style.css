@@ -10,6 +10,86 @@ html {
 }
 
 
+
+.app-config { position: relative; }
+/* MENU Toggaler */
+.menu-popup {display: none;}
+.modal-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+    transition:  all .5s ease-in-out;
+    backface-visibility: hidden;
+    opacity: 0;
+}
+
+.menu-overlay {
+    text-align: center;
+}
+.menu-overlay a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin: 5px 0;
+    display: block;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.remove-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 20px;
+}
+
+
+
+.menu-overlay a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media only screen and (max-width:769px) {
+    .menu-popup {
+        display: block !important;
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        top: 150px;
+        right: 20px;
+        background-color: #fff;
+        border-radius: 100%;
+        z-index: 1000;
+        outline: none !important;
+        border: none !important;
+    }
+
+    .menu-popup i {
+        font-size: 20px !important;
+        color: #121212;
+    }
+}
+
+
 body {
     line-height: 1.6;
     background-color: #000;
@@ -36,6 +116,19 @@ body {
     width: 100%;
     padding: 5px 40px;
     background-color: #121212;
+}
+
+
+@media only screen and (max-width:769px) {
+    .top__navbar {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .top-menu {
+        display: none !important;
+    }
 }
 
 .top__navbar .logo {
