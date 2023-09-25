@@ -338,6 +338,12 @@ body {
     justify-content: center;
 }
 
+@media only screen and (max-width: 769px) {
+    .icon__box {
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+}
 
 .icon__box i {
     color: #333;
@@ -347,6 +353,13 @@ body {
     display: flex;
     gap: 30px;
     justify-content: center;
+}
+
+@media only screen and (max-width:769px) {
+    .card-services {
+        display: flex !important;
+        flex-direction: column !important;
+    }
 }
 
 
