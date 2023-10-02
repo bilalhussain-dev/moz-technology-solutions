@@ -1,402 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,800;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,800;1,300;1,400;1,700&display=swap"
-		rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
+  <body class="app-config">
+    <button class="menu-popup">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
 
-	<link rel="stylesheet" href="./css/style.css">
+    <div class="modal-menu">
+      <i class="fa fa-times remove-menu"></i>
+      <div class="menu-overlay">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+      </div>
+    </div>
+    <header class="header">
+      <div class="top__navbar">
+        <span class="logo">Mozahid</span>
+        <div class="top-menu">
+          <ul class="menu">
+            <li class="list-item"><a href="#" class="link">Home</a></li>
+            <li class="list-item"><a href="#" class="link">Services</a></li>
+            <li class="list-item"><a href="#" class="link">About us</a></li>
+            <li class="list-item btn-contact">
+              <a href="#" class="link active">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-</head>
+      <div class="animated--circle"></div>
 
-<body class="app-config">
-	<button class="menu-popup">
-		<i class="fa fa-bars" aria-hidden="true"></i>
-	</button>
+      <div class="header--content">
+        <h1 class="heading-1">Your Perfect, IT Solution</h1>
+        <p>
+          As a dynamic agency, we're deeply immersed in the tech world, and
+          we're here to share our passion and knowledge with you.
+        </p>
 
-	<div class="modal-menu">
-		<i class="fa fa-times remove-menu"></i>
-		<div class="menu-overlay">
-			<a href="#">Home</a>
-			<a href="#">Services</a>
-			<a href="#">About us</a>
-			<a href="#">Contact us</a>
-		</div>
-	</div>
-	<header class="header">
-		<div class="top__navbar">
-			<span class="logo">Mozahid</span>
-			<div class="top-menu">
-				<ul class="menu">
-					<li class="list-item"><a href="#" class="link">Home</a></li>
-					<li class="list-item"><a href="#" class="link">Services</a></li>
-					<li class="list-item"><a href="#" class="link">About us</a></li>
-					<li class="list-item btn-contact"><a href="#" class="link active">Contact us</a></li>
-				</ul>
-			</div>
-		</div>
+        <div class="cta__site">
+          <a href="" class="btn btn-primary">Get Started</a>
+          <a href="" class="btn btn-primary-outline">View Projects</a>
+        </div>
+      </div>
+    </header>
 
-		<div class="animated--circle"></div>
+    <!-- BUSINESS STATS START -->
+    <div class="counter__stats">
+      <div class="counter-box">
+        <h3>200+</h3>
+        <p>Projects Completed</p>
+      </div>
+      <div class="counter-box">
+        <h3>200</h3>
+        <p>Total Clients</p>
+      </div>
+      <div class="counter-box">
+        <h3>10+</h3>
+        <p>Year of Experience</p>
+      </div>
+      <div class="counter-box">
+        <h3>$700K</h3>
+        <p>Revinue</p>
+      </div>
+    </div>
+    <!-- BUSINESS STATS ENDS -->
 
-		<div class="header--content">
-			<h1 class="heading-1">Your Perfect, IT Solution</h1>
-			<p>As a dynamic agency, we're deeply immersed in the tech world, and we're here to share our passion and
-				knowledge with you.</p>
+    <!-- SERVICES SECTION START -->
+    <div class="services__section section">
+      <div class="section--heading">
+        <h3>Our Services</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          laborum pariatur reprehenderit vero rerum dolor nisi. Cumque sunt at
+          quidem.
+        </p>
+      </div>
 
-			<div class="cta__site">
-				<a href="" class="btn btn-primary">Get Started</a>
-				<a href="" class="btn btn-primary-outline">View Projects</a>
-			</div>
-		</div>
-	</header>
+      <div class="services__grid">
+        <div class="card-services">
+          <div class="icon__box">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          </div>
+          <div class="services--detail">
+            <h3>Front-End Development</h3>
+            <p>
+              Frontend development is the face of your digital presence, and we take pride in creating visually appealing and highly responsive interfaces that captivate your audience. Our frontend developers are masters at transforming design concepts into interactive web experiences.
+            </p>
+          </div>
+        </div>
+        <div class="card-services">
+          <div class="icon__box">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          </div>
+          <div class="services--detail">
+            <h3>Backend Development</h3>
+            <p>
+              In the digital realm, a robust backend infrastructure is the backbone of any successful application. Our backend development services ensure your systems operate seamlessly, handling complex operations with finesse. We specialize in creating scalable, secure, and high-performance backend architectures that lay the foundation for your digital ambitions.
+          </div>
+        </div>
+        <div class="card-services">
+          <div class="icon__box">
+            <i class="fa fa-bolt" aria-hidden="true"></i>
+          </div>
+          <div class="services--detail">
+            <h3>UI/UX Design</h3>
+            <p>
+              Our UI/UX design services are crafted with the perfect blend of creativity and user-centricity. We understand the power of intuitive interfaces and visually appealing designs. Whether you need a sleek and modern look or a vibrant and interactive user experience, our expert designers meticulously focus on every detail to ensure seamless navigation and delightful interactions.
+            </p>
+          </div>
+        </div>
+        <div class="card-services">
+          <div class="icon__box">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+          </div>
+          <div class="services--detail">
+            <h3>Mobile App</h3>
+            <p>
+              n the mobile-first era, having a compelling mobile app is essential for reaching and engaging your audience. Our mobile app development services combine creativity and technical expertise to deliver seamless, user-friendly applications across iOS and Android platforms.
+            </p>
+          </div>
+        </div>
 
-	<!-- BUSINESS STATS START -->
-	<div class="counter__stats">
-		<div class="counter-box">
-			<h3>200+</h3>
-			<p>Projects Completed</p>
-		</div>
-		<div class="counter-box">
-			<h3>200</h3>
-			<p>Total Clients</p>
-		</div>
-		<div class="counter-box">
-			<h3>10+</h3>
-			<p>Year of Experience</p>
-		</div>
-		<div class="counter-box">
-			<h3>$700K</h3>
-			<p>Revinue</p>
-		</div>
-	</div>
-	<!-- BUSINESS STATS ENDS -->
+        <div class="card-services">
+          <div class="icon__box">
+            <i class="fa fa-cogs" aria-hidden="true"></i>
+          </div>
+          <div class="services--detail">
+            <h3>Automation Testing</h3>
+            <p>
+              Embrace the power of automation with our cutting-edge solutions designed to streamline your workflows and boost efficiency. We specialize in developing custom automation tools tailored to your specific needs, enabling you to automate repetitive tasks, reduce human errors, and accelerate productivity.
+            </p>
+          </div>
+        </div>
 
+        <div class="card-services">
+          <div class="icon__box">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+          </div>
+          <div class="services--detail">
+            <h3>System Security</h3>
+            <p>
+              In today’s digital landscape, safeguarding your systems and data is paramount. Our system security services offer comprehensive protection against cyber threats, ensuring your valuable assets remain secure. We employ industry-leading security practices to identify vulnerabilities, fortify your networks, and implement robust security protocols.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SERVICES SECTION ENDS -->
 
-	<!-- SERVICES SECTION START -->
-	<div class="services__section section">
-		<div class="section--heading">
-			<h3>Our Services</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laborum pariatur reprehenderit vero
-				rerum dolor nisi. Cumque sunt at quidem.</p>
-		</div>
+    <!-- About SECTION ENDS -->
+    <div class="section section-about">
+      <div class="section--heading">
+        <h3>About us</h3>
+      </div>
 
+      <div class="about-us">
+        <p>
+          At TechTribe Hub, we're driven by a shared passion for technology, web
+          development, and the art of UI/UX design. Our mission is simple: to
+          empower individuals and businesses alike with the knowledge and tools
+          they need to thrive in the digital age.
+        </p>
 
-		<div class="services__grid">
-			<div class="card-services">
-				<div class="icon__box">
-					<i class="fa fa-globe" aria-hidden="true"></i>
-				</div>
-				<div class="services--detail">
-					<h3>Front-End Development</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum voluptatum alias, et ipsa
-						consequatur amet velit fugit consectetur suscipit atque, quaerat excepturi deleniti pariatur
-						reiciendis aspernatur provident! Earum, ex explicabo?</p>
-				</div>
-			</div>
-			<div class="card-services">
-				<div class="icon__box">
-					<i class="fa fa-globe" aria-hidden="true"></i>
-				</div>
-				<div class="services--detail">
-					<h3>Backend Development</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum voluptatum alias, et ipsa
-						consequatur amet velit fugit consectetur suscipit atque, quaerat excepturi deleniti pariatur
-						reiciendis aspernatur provident! Earum, ex explicabo?</p>
-				</div>
-			</div>
-			<div class="card-services">
-				<div class="icon__box">
-					<i class="fa fa-bolt" aria-hidden="true"></i>
+        <p>
+          We believe that technology is a dynamic force that can transform
+          industries, disrupt the status quo, and spark innovation. It's a
+          language we're fluent in, and we're eager to help you become fluent
+          too. Whether you're a seasoned professional or just taking your first
+          steps in the digital world, TechTribe Hub is your trusted companion on
+          this exciting journey. Our dedicated team of experts curates the
+          latest trends, best practices, and emerging technologies to keep you
+          at the forefront of the digital landscape. We're more than just a
+          website; we're a thriving community of tech enthusiasts, developers,
+          designers, and entrepreneurs. Together, we foster creativity, share
+          knowledge, and inspire growth.
+        </p>
 
-				</div>
-				<div class="services--detail">
-					<h3>UI/UX Design</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum voluptatum alias, et ipsa
-						consequatur amet velit fugit consectetur suscipit atque, quaerat excepturi deleniti pariatur
-						reiciendis aspernatur provident! Earum, ex explicabo?</p>
-				</div>
-			</div>
-			<div class="card-services">
-				<div class="icon__box">
-					<i class="fa fa-mobile" aria-hidden="true"></i>
+        <p>
+          Join us as we explore the boundless possibilities of technology,
+          unravel the mysteries of web development, and craft seamless user
+          experiences. Let's embark on a shared adventure where ideas flourish,
+          connections thrive, and the digital future unfolds before our eyes.
+        </p>
 
-				</div>
-				<div class="services--detail">
-					<h3>Mobile App</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum voluptatum alias, et ipsa
-						consequatur amet velit fugit consectetur suscipit atque, quaerat excepturi deleniti pariatur
-						reiciendis aspernatur provident! Earum, ex explicabo?</p>
-				</div>
-			</div>
+        <div class="founder">
+          <img
+            src="https://images.pexels.com/photos/4890259/pexels-photo-4890259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            class="founder-img"
+          />
+          <div class="founder-detail">
+            <span class="name"> Zahid Hanif</span>
+            <span class="light-text">Founder of Mozahid.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-			<div class="card-services">
-				<div class="icon__box">
-					<i class="fa fa-cogs" aria-hidden="true"></i>
+    <!-- About SECTION ENDS -->
 
+    <!-- TESTIOMONIALS SECTION ENDS -->
+    <div class="section section-testimonials">
+      <div class="section--heading">
+        <h3>What Our Clients Says</h3>
+      </div>
+      <div class="testiomonials">
+        <div class="testiomonials-card">
+          <div class="quote-icon">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+          <p class="client-quote">
+            I asked zahidhanif to create a custom Redmine plugin for managing projects and project templates with complex user and permission management. I was impressed by the seller's clear understanding of my requirements, prompt communication, and excellent customer service. He created a high-quality product that perfectly meets my needs and makes my job much easier.
+          </p>
 
-				</div>
-				<div class="services--detail">
-					<h3>Automation Testing</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum voluptatum alias, et ipsa
-						consequatur amet velit fugit consectetur suscipit atque, quaerat excepturi deleniti pariatur
-						reiciendis aspernatur provident! Earum, ex explicabo?</p>
-				</div>
-			</div>
+          <div class="client-profile">
+            <img
+              src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/e1d693c884201b36ad04d370f8016504-1616501403139/424fb848-7d6e-403e-b533-e19d0b5c4e97.jpeg"
+              alt=""
+            />
+            <strong>Giuseppe N.</strong>
+          </div>
+        </div>
+        <div class="testiomonials-card">
+          <div class="quote-icon">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+          <p class="client-quote">
+            Amazing seller, after finding a seller for weeks to do my job, only this seller could pull this off. Purely talented, and he even helped me to set it up till the very end step. Assisted me and completed. Will definitely work with this person again. He did a very fast job too.
+          </p>
 
+          <div class="client-profile">
+            <img
+              src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/22aad0a77901560996c0105ac825ac73-1680957019289/57f6135f-165a-4c41-a21d-555e32e0802a.jfif"
+              alt=""
+            />
+            <strong>Expert Alina</strong>
+          </div>
+        </div>
+        <div class="testiomonials-card">
+          <div class="quote-icon">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+          <p class="client-quote">
+            Fast, transparent and delivered exactly what I wanted. It was a pleasure to work with zahidhanif. I am new to this platform and he was my first Seller. And he not only convinced me of contacting again for any thing regarding redmine (ruby on rails) but also encouraged me to further look into this platform.
+          </p>
 
-			<div class="card-services">
-				<div class="icon__box">
-					<i class="fa fa-lock" aria-hidden="true"></i>
+          <div class="client-profile">
+            <img
+              src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+              alt=""
+            />
+            <strong>seahawk240</strong>
+          </div>
+        </div>
 
+        <div class="testiomonials-card">
+          <div class="quote-icon">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+          <p class="client-quote">
+            Very Professional and Expert in Ruby on Rails Technology. He was able to solve all the challenges and deliver us the final product. I will be working with him for the next project as well.
+          </p>
 
-				</div>
-				<div class="services--detail">
-					<h3>System Security</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum voluptatum alias, et ipsa
-						consequatur amet velit fugit consectetur suscipit atque, quaerat excepturi deleniti pariatur
-						reiciendis aspernatur provident! Earum, ex explicabo?</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- SERVICES SECTION ENDS -->
+          <div class="client-profile">
+            <img
+              src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/c30fc7092577f88083a84fdfedf19993-1554333291040/56f69060-1f85-4305-9b1a-c7fc674c732c.jpg"
+              alt=""
+            />
+            <strong>junaids10</strong>
+          </div>
+        </div>
 
+        <div class="testiomonials-card">
+          <div class="quote-icon">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+          <p class="client-quote">
+            He is awesome awesome awesome, I cant say that enough 😊, I was stuck at ruby problem since months and just just fixed in less then 5 minutes, WOW, what a wonderful experience, highly recommended.
+          </p>
 
-	<!-- About SECTION ENDS -->
-	<div class="section section-about">
-		<div class="section--heading">
-			<h3>About us</h3>
-		</div>
+          <div class="client-profile">
+            <img
+              src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/35e2b19fe5f6b14257b57475cf3e404f-1616149030418/ab251b63-ffb3-466a-bb5b-becc5d7f438a.jpg"
+              alt=""
+            />
+            <strong>softwareprince</strong>
+          </div>
+        </div>
 
-		<div class="about-us">
-			<p>At TechTribe Hub, we're driven by a shared passion for technology, web development, and the art of UI/UX
-				design. Our mission is simple: to empower individuals and businesses alike with the knowledge and tools
-				they need to thrive in the digital age.</p>
+        <div class="testiomonials-card">
+          <div class="quote-icon">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+          <p class="client-quote">
+            Zahid and I worked VERY WELL together and he showed me how to better troubleshoot the issue to uncover WHY the @attachment.save wasn't working. He worked with me and showed me how to get the needed answers which was even more valuable to me than the solution itself.
+          </p>
 
-			<p>
-				We believe that technology is a dynamic force that can transform industries, disrupt the status quo, and
-				spark innovation. It's a language we're fluent in, and we're eager to help you become fluent too.
-				Whether you're a seasoned professional or just taking your first steps in the digital world, TechTribe
-				Hub is your trusted companion on this exciting journey.
+          <div class="client-profile">
+            <img
+              src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+              alt=""
+            />
+            <strong>Milella Des</strong>
+          </div>
+        </div>
+      </div>
 
-				Our dedicated team of experts curates the latest trends, best practices, and emerging technologies to
-				keep you at the forefront of the digital landscape. We're more than just a website; we're a thriving
-				community of tech enthusiasts, developers, designers, and entrepreneurs. Together, we foster creativity,
-				share knowledge, and inspire growth.
-			</p>
+      <div class="cta___site">
+        <a href="#" class="btn btn-primary">Hire Our Agency</a>
+      </div>
+    </div>
+    <!-- TESTIOMONIALS SECTION ENDS -->
 
-			<p>
-				Join us as we explore the boundless possibilities of technology, unravel the mysteries of web
-				development, and craft seamless user experiences. Let's embark on a shared adventure where ideas
-				flourish, connections thrive, and the digital future unfolds before our eyes.
-			</p>
+    <div class="section section-contact">
+      <div class="contact-site">
+        <div class="contact">
+          <div class="contact-detail">
+            <span class="icon-contact">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </span>
+            <span class="address">contact@mozahid.com</span>
+          </div>
 
-			<div class="founder">
-				<img src="https://images.pexels.com/photos/4890259/pexels-photo-4890259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-					alt="" class="founder-img">
-				<div class="founder-detail">
-					<span class="name"> Zahid Hanif</span>
-					<span class="light-text">Founder of Mozahid.com</span>
-				</div>
-			</div>
-		</div>
-	</div>
+          <div class="contact-detail">
+            <span class="icon-contact">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </span>
+            <span class="address">@mozahid.ajency</span>
+          </div>
 
-	<!-- About SECTION ENDS -->
+          <div class="contact-detail">
+            <span class="icon-contact">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </span>
+            <span class="address">mozahid-dev</span>
+          </div>
+        </div>
 
+        <div class="cta___site">
+          <a href="#" class="btn btn-primary">Let's Connect</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="footer-text">
+        copyright &copy; by mozahidtech.com | Founded in 2023-23
+      </p>
+    </div>
 
-	<!-- TESTIOMONIALS SECTION ENDS -->
-	<div class="section section-testimonials">
+    <script>
+      (function () {
+        const UIModelSelector = {
+          enable:
+            "visibility: visible;  transition:  all .5s ease-in-out; opacity: 1;",
+          disable:
+            "visibility: hidden;  transition:  all .5s ease-in-out; opacity: 0;",
+          display: ".modal-menu",
+          close: ".remove-menu",
+          open: ".menu-popup",
+        };
+        let overlay = document.querySelector(UIModelSelector.display);
+        document
+          .querySelector(UIModelSelector.open)
+          .addEventListener("click", (event) => {
+            overlay.setAttribute("style", UIModelSelector.enable);
+            event.preventDefault();
+            return true;
+          });
 
-		<div class="section--heading">
-			<h3>What Our Clients Says</h3>
-		</div>
-		<div class="testiomonials">
-			<div class="testiomonials-card">
-				<div class="quote-icon">
-					<i class="fa fa-quote-left" aria-hidden="true"></i>
-				</div>
-				<p class="client-quote">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi atque dignissimos optio
-					ut quisquam incidunt nostrum, fugit obcaecati. Sapiente repellendus quasi asperiores eos et
-					voluptatibus officia aliquid repudiandae omnis?
-				</p>
-
-				<div class="client-profile">
-					<img src="https://images.pexels.com/photos/4890259/pexels-photo-4890259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-						alt="">
-					<strong>Bilal Hussain</strong>
-				</div>
-			</div>
-			<div class="testiomonials-card">
-				<div class="quote-icon">
-					<i class="fa fa-quote-left" aria-hidden="true"></i>
-				</div>
-				<p class="client-quote">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi atque dignissimos optio
-					ut quisquam incidunt nostrum, fugit obcaecati. Sapiente repellendus quasi asperiores eos et
-					voluptatibus officia aliquid repudiandae omnis?
-				</p>
-
-				<div class="client-profile">
-					<img src="https://images.pexels.com/photos/4890259/pexels-photo-4890259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-						alt="">
-					<strong>Bilal Hussain</strong>
-				</div>
-			</div>
-			<div class="testiomonials-card">
-				<div class="quote-icon">
-					<i class="fa fa-quote-left" aria-hidden="true"></i>
-				</div>
-				<p class="client-quote">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi atque dignissimos optio
-					ut quisquam incidunt nostrum, fugit obcaecati. Sapiente repellendus quasi asperiores eos et
-					voluptatibus officia aliquid repudiandae omnis?
-				</p>
-
-				<div class="client-profile">
-					<img src="https://images.pexels.com/photos/4890259/pexels-photo-4890259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-						alt="">
-					<strong>Bilal Hussain</strong>
-				</div>
-			</div>
-
-			<div class="testiomonials-card">
-				<div class="quote-icon">
-					<i class="fa fa-quote-left" aria-hidden="true"></i>
-				</div>
-				<p class="client-quote">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi atque dignissimos optio
-					ut quisquam incidunt nostrum, fugit obcaecati. Sapiente repellendus quasi asperiores eos et
-					voluptatibus officia aliquid repudiandae omnis?
-				</p>
-
-				<div class="client-profile">
-					<img src="https://images.pexels.com/photos/4890259/pexels-photo-4890259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-						alt="">
-					<strong>Bilal Hussain</strong>
-				</div>
-			</div>
-
-			<div class="testiomonials-card">
-				<div class="quote-icon">
-					<i class="fa fa-quote-left" aria-hidden="true"></i>
-				</div>
-				<p class="client-quote">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi atque dignissimos optio
-					ut quisquam incidunt nostrum, fugit obcaecati. Sapiente repellendus quasi asperiores eos et
-					voluptatibus officia aliquid repudiandae omnis?
-				</p>
-
-				<div class="client-profile">
-					<img src="https://images.pexels.com/photos/4890259/pexels-photo-4890259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-						alt="">
-					<strong>Bilal Hussain</strong>
-				</div>
-			</div>
-
-			<div class="testiomonials-card">
-				<div class="quote-icon">
-					<i class="fa fa-quote-left" aria-hidden="true"></i>
-				</div>
-				<p class="client-quote">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi atque dignissimos optio
-					ut quisquam incidunt nostrum, fugit obcaecati. Sapiente repellendus quasi asperiores eos et
-					voluptatibus officia aliquid repudiandae omnis?
-				</p>
-
-				<div class="client-profile">
-					<img src="https://images.pexels.com/photos/4890259/pexels-photo-4890259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-						alt="">
-					<strong>Bilal Hussain</strong>
-				</div>
-			</div>
-
-
-		</div>
-
-
-		<div class="cta___site">
-			<a href="#" class="btn btn-primary">Hire Our Agency</a>
-		</div>
-	</div>
-	<!-- TESTIOMONIALS SECTION ENDS -->
-
-	<div class="section section-contact">
-		<div class="contact-site">
-			<div class="contact">
-				<div class="contact-detail">
-					<span class="icon-contact">
-						<i class="fa fa-envelope-o" aria-hidden="true"></i>
-					</span>
-					<span class="address">contact@mozahid.com</span>
-				</div>
-
-				<div class="contact-detail">
-					<span class="icon-contact">
-						<i class="fa fa-facebook" aria-hidden="true"></i>
-
-					</span>
-					<span class="address">@mozahid.ajency</span>
-				</div>
-
-				<div class="contact-detail">
-					<span class="icon-contact">
-						<i class="fa fa-linkedin" aria-hidden="true"></i>
-
-					</span>
-					<span class="address">mozahid-dev</span>
-				</div>
-			</div>
-
-			<div class="cta___site">
-				<a href="#" class="btn btn-primary">Let's Connect</a>
-			</div>
-		</div>
-
-	</div>
-	<div class="footer">
-		<p class="footer-text">
-			copyright &copy; by mozahidtech.com | Founded in 2023-23
-		</p>
-	</div>
-
-
-	<script>
-
-		(function () {
-			const UIModelSelector = {
-				enable: 'visibility: visible;  transition:  all .5s ease-in-out; opacity: 1;',
-				disable: 'visibility: hidden;  transition:  all .5s ease-in-out; opacity: 0;',
-				display: '.modal-menu',
-				close: '.remove-menu',
-				open: '.menu-popup'
-			}
-			let overlay = document.querySelector(UIModelSelector.display);
-			document.querySelector(UIModelSelector.open).addEventListener('click', (event) => {
-
-				overlay.setAttribute('style', UIModelSelector.enable)
-				event.preventDefault();
-				return true;
-			});
-
-			document.querySelector(UIModelSelector.close).addEventListener('click', (event) => {
-				overlay.setAttribute('style', UIModelSelector.disable)
-				event.preventDefault();
-				return true;
-			});
-		})();
-
-	</script>
-</body>
-
+        document
+          .querySelector(UIModelSelector.close)
+          .addEventListener("click", (event) => {
+            overlay.setAttribute("style", UIModelSelector.disable);
+            event.preventDefault();
+            return true;
+          });
+      })();
+    </script>
+  </body>
 </html>
