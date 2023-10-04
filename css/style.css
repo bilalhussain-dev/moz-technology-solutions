@@ -123,6 +123,8 @@ body {
     text-rendering: optimizeLegibility;
     color: #fff;
     font-family: 'Lato', sans-serif;
+    transition:  all .6s ease-in-out;
+    scroll-behavior: smooth;
 }
 
 
@@ -269,6 +271,13 @@ body {
 
 }
 
+
+@media only screen and (max-width:769px) {
+    .btn-small-devise {
+        padding: 10px 20px !important;
+        display: inline-block !important;
+    }
+}
 
 
 .btn-primary {
@@ -767,6 +776,11 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+}
+
+
+.contact-detail a {
+    text-decoration: none !important;
 }
 
 .contact-detail .icon-contact {
